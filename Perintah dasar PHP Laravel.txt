@@ -1,0 +1,10 @@
+perintah-perintah dasar di php laravel
+- php artisan make:migration create new migration file
+- php artisan migrate -> to migrating database to sql
+- php artisan migrate:rollback -> rollback the last database migration
+- php artisan migrate:reset -> rollback all database migration
+
+untuk menjalankan server arahkan ke folder project di cmd
+php -S localhost:8000 -t public
+
+hidupkan XAMPP supaya bisa akses database localhost
