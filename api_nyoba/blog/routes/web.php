@@ -21,3 +21,7 @@ $router->get('getvaksinadmin', 'DateVaksinController@getVaksinAdmin');
 $router->post('/admin', 'AdminController@createAdmin');
 $router->get('/admin', 'AdminController@getAdmin');
 $router->get('/admin/{id}', 'AdminController@getAdminId');
+
+// login user router
+$router->post('/daftar', 'RegisterController@daftar');
+$router->post('/masuk', 'LoginController@login');
