@@ -1,8 +1,0 @@
-<?php
-
-$a = 1;
-
-while ($a <= 10) {
-    echo "saya bernilai " . $a . '<br/>';
-    $a++;
-}
