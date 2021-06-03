@@ -1,0 +1,12 @@
+// 1
+composer create-project --prefer-dist laravel/laravel belajar_laravel
+
+// install jetstream
+composer require laravel/jetstream
+lalu => php artisan jetstream:install livewire --teams
+
+// memunculkan vendor:publish --tag=jetstream-views
+php artisan vendor:publish --tag=jetstream-views
+
+// membuat model
+php artisan make:model nama_model -a
