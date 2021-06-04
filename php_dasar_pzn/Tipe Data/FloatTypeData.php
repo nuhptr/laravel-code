@@ -11,3 +11,7 @@ var_dump(7e-3); // float(0.007)
 
 echo 'Underscore di Floating Point : ';
 var_dump(1_234_567); // int(1234567)
+
+// Integer Overflow
+echo 'Integer overflow : ';
+var_dump(92233720368547758079999);
