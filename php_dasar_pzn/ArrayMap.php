@@ -19,15 +19,15 @@ $budi = array([
     "age" => 35
 ]);
 
-// TODO : Array In Array
-$adi = array(
+// TODO : Array In Array menggunakan blok siku
+$adi = [
     "id" => "adi",
     "name" => "Adi Nugraha Putra",
     "age" => 21,
     "address" => [
         "city" => "Jakarta",
         "country" => "Indonesia"
-    ]
-);
+        ]
+    ];
 
-var_dump($adi["address"]["city"]);
+var_dump($adi["address"]["city"]); //? cara memanggil si city

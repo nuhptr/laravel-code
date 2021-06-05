@@ -8,7 +8,7 @@
  */
 
 $a = 10;
-$b = ++$a;
+$b = ++$a; // dinaikan dan di assign ke b lalu mengembalikan $a = 11
 
-var_dump($b);
-var_dump($a);
+var_dump($b); // int (11)
+var_dump($a); // int (11)
