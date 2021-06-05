@@ -23,5 +23,5 @@ unset($contoh);
 // TODO : menegaskan variabel $contoh
 var_dump(isset($contoh)); // bool(false)
 
-// TODO : echo $contoh; sudah tidak bisa menggunakan variabel tersebut
+// TODO: echo $contoh; sudah tidak bisa menggunakan variabel tersebut
 
