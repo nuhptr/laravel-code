@@ -9,7 +9,7 @@ echo "\n"; // for enter
 echo "Adi\t Nugraha\t Putra";
 echo "\n\n";
 
-// TODO : Heredoc => create long string
+// TODO: Heredoc => create long string
 echo <<<ADI
 ini multiline string weh jangan salah apapapapappapapapapa
 ADI;

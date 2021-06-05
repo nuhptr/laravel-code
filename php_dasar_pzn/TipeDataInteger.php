@@ -12,6 +12,6 @@ var_dump(0x1A); // TODO : int(26)
 echo 'Binary : ';
 var_dump(0b111111); // TODO : int(63)
 
-// TODO : tidak berefek apapun di number hanya supaya mudah dibaca
+// TODO: tidak berefek apapun di number hanya supaya mudah dibaca
 echo 'undescore di number : ';
 var_dump(1_234_567);
