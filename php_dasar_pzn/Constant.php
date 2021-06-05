@@ -1,6 +1,6 @@
 <?php
 
-// TODO : Const bersifat final tidak dapat diubah
+// TODO : Const final tidak dapat diubah
 const AUTHOR = "Programmer Zaman Now";
 const APP_VERSION = 100;
 
