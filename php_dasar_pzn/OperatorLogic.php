@@ -1,7 +1,8 @@
 <?php
 
 // TODO : oprerator( && / and, || / or,
-// TODO : ! (true jika value false), Xor (salah satu true tapi tidak keduanya)
+// TODO : ! (true jika value false),
+// TODO : Xor (salah satu true tapi tidak keduanya)
 
 var_dump(true && true); // TODO : true
 var_dump(true && false); // TODO : false

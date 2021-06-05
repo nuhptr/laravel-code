@@ -1,7 +1,6 @@
 <?php
 
 // TODO : operator penugasan lain ( - , *, /, %)
-
 $total = 0;
 
 $fruit =  10000;

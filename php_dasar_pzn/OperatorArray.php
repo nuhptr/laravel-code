@@ -17,7 +17,7 @@ $last = [
 $full = $first + $last;
 var_dump($full);
 
-// TODO : equal and identity
+// TODO : equal and identity check
 $a =[
     "first" => "Adi",
     "last" => "Nugraha"

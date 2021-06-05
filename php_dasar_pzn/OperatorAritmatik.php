@@ -1,6 +1,6 @@
 <?php
 
-// TODO : operator ( +, -, *, /, %, **)
+// TODO : operator ( +, -, *, /, %, ** )
 $a = 10;
 $b = 20;
 

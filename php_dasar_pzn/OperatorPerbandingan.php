@@ -4,7 +4,7 @@
  *  TODO : operator (!== (tidak identik), <, <= , >, >=)
  */
 
-// Type Juggling => perubahan type data otomatis
+// TODO : Type Juggling => perubahan type data otomatis
 var_dump(10 == "10"); // TODO : bool(true)
 var_dump(10 === "10"); // TODO : bool (false)
 
