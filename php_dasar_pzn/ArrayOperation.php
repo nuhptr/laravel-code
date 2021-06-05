@@ -16,5 +16,5 @@ $array = ["Adi", "Nugraha"];
 $array[] = "Putra"; // Menambahkan data
 var_dump($array);
 
-// TODO : Menghitung jumlah array
+// TODO : Menghitung jumlah array dari 1
 var_dump(count($array)); // int(3)
