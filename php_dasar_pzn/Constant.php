@@ -1,13 +1,13 @@
 <?php
 
-// Todo : Const bersifat final tidak dapat diubah
+// TODO : Const bersifat final tidak dapat diubah
 const AUTHOR = "Programmer Zaman Now";
 const APP_VERSION = 100;
 
 echo "Author : ";
-echo AUTHOR; // Todo : Programmer Zaman Now
+echo AUTHOR; // TODO : Programmer Zaman Now
 echo  "\n";
 
 echo  "Version : ";
-echo APP_VERSION; //Todo : 100
+echo APP_VERSION; // TODO : 100
 echo  "\n";
