@@ -3,7 +3,7 @@
 require_once "data\NamespaceHelper.php";
 require_once "data\NamespaceConflict.php";
 
-// TODO : menggunakan keyword alias -> as
+// TODO : menggunakan use untuk define namespace
 use Data\One\Conflict;
 // use Data\Two\Conflict; Error tidak bisa walaupun berbeda namespace
 use function Helper\helpMe;
