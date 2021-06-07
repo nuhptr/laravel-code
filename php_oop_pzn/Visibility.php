@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection ALL */
 
 $product = new Product("Apple", "10000000");
 
