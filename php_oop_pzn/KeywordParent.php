@@ -2,8 +2,6 @@
 
 namespace data;
 
-use JetBrains\PhpStorm\Pure;
-
 class Shape
 {
     public function getCorner(): int
