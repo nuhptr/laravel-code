@@ -15,7 +15,9 @@ class Shop
 
 class Reseller extends Shop
 {
-    // TODO : merubah ovveriding contructor boleh tapi jika argument tidak disarankan
+    /**  TODO : merubah ovveriding contructor
+     *          boleh tapi jika argument tidak disarankan
+     * */
     public function __construct(?string $name)
     {
         parent::__construct($name, 1000000);
