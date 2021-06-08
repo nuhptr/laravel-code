@@ -19,6 +19,10 @@ class Rectangle extends Shape
 
     public function getParentCorner()
     {
+        /**
+         * TODO : untuk mengambil nilai yang sama dari
+         *      function yang ada di class parent
+         */
         return parent::getCorner();
     }
 }
