@@ -30,7 +30,9 @@ class Product
         return $this->price;
     }
 
-    // TODO : ketika membuat suatu private member biasakan buat getter/setter
+    /**   TODO : ketika membuat suatu private member
+     *           biasakan buat getter/setter
+     */
     public function setPrice(?int $price): void
     {
         $this->price = $price;
