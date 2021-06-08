@@ -27,7 +27,9 @@ class Person
         }
     }
 
-    // TODO : self Keyword untuk memanggil constant kelas dirinya sendiri
+    /** TODO : self Keyword untuk memanggil constant
+     *         kelas dirinya sendiri
+     */
     function info()
     {
         echo "Author : " . self::AUTHOR . PHP_EOL;
@@ -36,6 +38,6 @@ class Person
     // TODO : function destructor
     function __destruct()
     {
-        echo "Object person $this->name is destroyed" .PHP_EOL;
+        echo "Object person $this->name is destroyed" . PHP_EOL;
     }
 }
