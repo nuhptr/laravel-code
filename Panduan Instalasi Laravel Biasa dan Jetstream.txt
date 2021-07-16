@@ -1,0 +1,18 @@
+A. New Project laravel 8 biasa
+
+1. composer global require laravel/installer
+2. laravel new example-app
+3. cd example-app
+4. php artisan serve
+
+========================
+
+B. New Project Laravel Jetstream
+// karena sudah install laravel jadi langsung aja 
+1. laravel new project-name --jet
+- ubah nama database di .env dan buat juga di localhost nama databasenya
+
+jika sudah, 
+2. npm install
+3. npm run dev
+4. php artisan migrate
