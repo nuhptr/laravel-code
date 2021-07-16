@@ -16,3 +16,12 @@ jika sudah,
 2. npm install
 3. npm run dev
 4. php artisan migrate
+
+C. Cara Kedua install laravel Jetstream
+1. laravel new example-project
+2. composer require laravel/jetstream
+3. php artisan jetstream:install livewire
+4. npm install
+5. npm run dev
+6. php artisan migrate -> setelah setup database name di .env dan phpmyadmin
+7. php artisan vendor:publish --tag=jetstream-views
