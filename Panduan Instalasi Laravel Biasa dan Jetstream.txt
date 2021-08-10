@@ -1,7 +1,7 @@
 A. New Project laravel 8 biasa
 
 1. composer global require laravel/installer
-2. laravel new example-app
+2. composer create-project laravel/laravel example-app
 3. cd example-app
 4. php artisan serve
 
@@ -18,7 +18,7 @@ jika sudah,
 4. php artisan migrate
 
 C. Cara Kedua install laravel Jetstream
-1. laravel new example-project
+1. composer create-project laravel/laravel example-app
 2. composer require laravel/jetstream
 3. php artisan jetstream:install livewire
 4. npm install
