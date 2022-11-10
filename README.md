@@ -1,8 +1,10 @@
-# Code-Laravel-Journey
+# laravel-code
 
-The Repository Contain :
+### The Repository Contain :
 
-1. Basic Of PHP
-2. Object Oriented Proggraming Of PHP
-3. Updated Version PHP 8
-4. Laravel Project with blade or vue
+```sh
+1. Basic of php
+2. Object oriented programming php
+3. Updated version 8
+4. Laravel project
+```
