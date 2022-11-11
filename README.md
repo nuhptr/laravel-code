@@ -6,5 +6,5 @@
 1. Basic of php
 2. Object oriented programming php
 3. Updated version 8
-4. Laravel project
+4. Laravel Command in laravel-note
 ```
