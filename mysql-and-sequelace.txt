@@ -1,0 +1,9 @@
+1. install mysql latest arm using brew
+   - brew install mysql
+   - brew services restart mysql
+   - mysql.server start
+   - mysql_secure_installation
+
+2. install sequelace for database interface
+-- akun sequelace 
+   root = 12345678 

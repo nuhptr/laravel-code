@@ -1,0 +1,22 @@
+1. Install php
+brew install php
+
+2. install composer
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+
+Most likely, you want to put the composer.phar into a directory on your PATH, 
+so you can simply call composer from any directory (Global install), using for example:
+
+> sudo mv composer.phar /usr/local/bin/composer
+
+3. install laravel
+composer global require laravel/installer
+
+4. add to zshrc to using laravel globally 
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+then you can use
+> laravel new example-app in anywhere
